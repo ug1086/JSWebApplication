@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Project 2
+    </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+    <link href="jquery-ui-1.12.1.custom/jquery-ui.structure.css" rel="stylesheet">
+    <link href="jquery-ui-1.12.1.custom/jquery-ui.theme.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="Project2.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <script src="Project2.js" type="text/javascript"></script>
+    <script src="Project2DataService.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/creative.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap4.min.js"></script>
+</head>
+<body>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a id="homeHeader" class="navbar-brand page-scroll" href="Project2.html"><i class="fa fa-x fa-paw text-primary sr-icons"></i> Rochester Institute of Technology</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="ugrad.html">Undergraduate Degrees</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="grad.html">Graduate Degrees</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="ugradminors.html">Undergraduate Minors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="employment.html">Employment</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="people.html">People</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="research.html">Research</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner"><br />
+                <h1 id="homeHeading">Information Sciences & Technologies @<span id="ritcolor"> RIT</span></h1>
+                <p id="AboutContainer"  style="display:none;"></p>
+                <hr>
+                <p id="quote"></p>
+                <p id="quoteAuthor"></p><br /><br />
+            </div>
+        </div>
+    </header>
+
+    <section id="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div id="FooterContainer"></div>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <a style="float:right; color:#00aced;" href="https://twitter.com/istatrit"><i class="fa fa-twitter fa-3x sr-contact"></i></a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a style="float:left; color:#3b5998;" href="https://www.facebook.com/ISTatRIT"><i class="fa fa-facebook fa-3x sr-contact"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul id="footerList" style="list-style: none;">
+                        <li>
+                            <a href="http://www.rit.edu/admission.html">Apply Now</a>
+                        </li>
+                        <li>
+                            <a href="http://ist.rit.edu/assets/includes/calls/calls.php?area=aboutSite">About This Site</a>
+                        </li>
+                        <li>
+                            <a href="http://ist.rit.edu/assets/includes/calls/calls.php?area=supportIST">Support IST</a>
+                        </li>
+                        <li>
+                            <a href="http://ist.rit.edu/assets/includes/resources/calls.php?area=tutors">Lab Hours</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div id="FooterContainer1"></div>
+                </div>
+                <div class="col-md-3">
+                    <div id="contactForm"><h5 id="contactFormHeading">Contact Form</h5></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="dialog5" title="Contact Form">
+        <style type="text/css">
+            /*default basic styles that can be overriden*/
+            body {
+                color: black;
+            }
+
+            #formContainer {
+                padding: 0em;
+            }
+
+            .title-item {
+                color: black;
+            }
+
+            .alert {
+                border-radius: 2px;
+                padding: 1em;
+            }
+
+            .alert-warning {
+                color: #8a6d3b;
+                background-color: #fcf8e3;
+                border-color: #faebcc;
+            }
+            .help-block {
+                color: black;
+            }
+        </style>
+        <div id="formContainer">
+            <!--<i class="fa fa-times fa-2x" style="cursor:pointer;position:absolute;top:60px;right:10px;" onclick="menuOff()"></i> -->
+            <h2 class="title-item">Contact Us</h2>
+            <br>
+            <div class="alert alert-success" id="contactSuccess" style="display:none"><strong>Success!</strong><span id="contactSuccessFeedback"></span></div>
+            <div class="alert alert-warning" style="display:none" id="contactFailure">
+                <strong>Warning! </strong> <span id="contactFailureFeedback" style=""></span>
+            </div>
+            <div id="contactForm">
+                <p>Questions? Comments? We want to hear from you.</p>
+                <form class="form-horizontal" action="" method="post" onsubmit="return false;" id="contactForm">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" for="input01">Your Name</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" id="input01" name="name" value="" />
+                                <p class="help-block">Name, email and message are required.</p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="input03">Your E-mail</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" id="input03" name="email" value="" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label">Your Phone</label>
+                            <div class="controls">
+                                <input type="text" maxlength="3" class="input-mini" name="phone1" placeholder="XXX" value="" /> -
+                                <input type="text" maxlength="3" class="input-mini" name="phone2" placeholder="XXX" value="" /> -
+                                <input type="text" maxlength="4" class="input-small" name="phone3" placeholder="XXXX" value="" />
+                                <script type="text/javascript">
+						// JavaScript to make it more user-friendly when entering a phone number.
+						$('[name="phone[]"]').keypress(function(evt) {
+							var code = evt.keyCode || evt.which;
+							if(code >= 48 && code <= 57) {
+								var $this=$(this);
+								if($this.val().length+1 >= $this.attr('maxlength')) {
+									$(':input:eq('+($(':input').index(this)+1)+')').focus();
+								}
+							}
+						});
+                                </script>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="message">Your Message</label>
+                            <div class="controls">
+                                <textarea class="input-xlarge" id="contactMessage" name="message" placeholder="Put your question or comment in here" style="width:90%;height:100px"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-info" onclick="sendForm()">Send it!</button>
+                            <input type="reset" class="btn" value="Reset" />
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <script>
+	function sendForm(){
+		$.ajax({
+			method:'post',
+			url:'http://ist.rit.edu/~istdev/assets/includes/contact/contactSubmit.php',
+			dataType:'json',
+			data:{name:$('#input01').val(),message:$('#contactMessage').val(),email:$('#input03').val(),phone:$('[name="phone1"]').val()+'-'+$('[name="phone2"]').val()+'-'+$('[name="phone3"]').val()},
+			success:function(d){
+				if(d.success){
+					$('#contactSuccess').show();
+					$('#contactSuccessFeedback').html(d.success);
+					$('#contactFailure, #contactForm').hide();
+				}else{
+					$('#contactSuccess').hide();
+					$('#contactFailureFeedback').html(d.failure);
+					$('#contactFailure, #contactForm').show();
+
+				}
+			}
+		});
+	}
+        </script>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,568 @@
+﻿#homeHeader{
+    color:#F05F40;
+}
+
+#homeHeader{
+    color:#F05F40;
+}
+
+#ritcolor{
+    color:#F05F40;
+}
+
+
+#quoteAuthor{
+    float:right;
+}
+
+#quote{
+    color:white;
+    font-weight:bold;
+}
+
+#homep{
+    color:white;
+    font-weight:bold;
+}
+
+section {
+    padding: 70px 0;
+}
+
+#UDegreeContainer1 p,h3{
+    color:white;
+}
+
+#UDegreeContainer2 p,h3{
+    color:white;
+}
+
+#UDegreeContainer3 p,h3{
+    color:white;
+}
+
+#ugradHeading{
+    color:white;
+}
+
+#wmc:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#hcc:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#cit:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#GDegreeContainer1 p,h3{
+    color:white;
+}
+
+#GDegreeContainer2 p,h3{
+    color:white;
+}
+
+#GDegreeContainer3 p,h3{
+    color:white;
+}
+
+#ggradHeading{
+    color:white;
+    font-weight:bold;
+}
+
+#ist:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#hci:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#nsa:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-radius: 16px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-radius: 16px;
+}
+
+.ui-accordion .ui-accordion-header {
+    background: #F05F40;
+    color:white;
+}
+
+#UMinorsContainer{
+    opacity:0.8;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid white;
+    border-radius:16px;
+    background: #007fff;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#EmploymentContainer1 p,h4{
+    text-align:center;
+    color:white;
+}
+
+#EmploymentContainer1 h3{
+    color:#F05F40;
+    text-align:center;
+    font-weight:bold;
+}
+
+#Deg{
+    font-weight:bold;
+}
+
+#employerul li{
+    margin-left:40px;
+    display:inline;
+    color:#F05F40;
+    font-weight:bold;
+    font-size:14px;
+}
+
+#Emp{
+    font-weight:bold;
+}
+
+#Car{
+    font-weight:bold;
+}
+
+#careerul li{
+    margin-left:40px;
+    display:inline;
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+}
+
+#coopTable{
+    color:white;
+    background-color:#F05F40;
+    opacity:0.9;
+}
+
+#coopTable thead th{
+    background-color:white;
+    color:black;
+    text-align:center;
+}
+
+#coopTable tfoot th{
+    color:black;
+    background-color:white;
+    text-align:center;
+}
+
+#coopTable_filter label{
+    color:white;
+}
+
+#coopTable_length label{
+    color:white;
+}
+
+
+#coopTable_info{
+    color:white;
+}
+
+#employmentTable{
+    color:white;
+    background-color:black;
+    opacity:0.8;
+}
+
+#employmentTable thead th{
+    background-color:white;
+    color:black;
+    text-align:center;
+}
+
+#employmentTable tfoot th{
+    color:black;
+    background-color:white;
+    text-align:center;
+}
+
+#employment_filter label{
+    color:white;
+}
+
+#employment_length label{
+    color:white;
+}
+
+
+#coopTable_info{
+    color:white;
+}
+
+#PeopleContainer h5{
+    text-align:center;
+    color:#F05F40;
+    font-weight:bold;
+}
+
+#PeopleContainer h4{
+    text-align:center;
+    color:white;
+}
+
+#PeopleContainer1 h5{
+    text-align:center;
+    color:#F05F40;
+    font-weight:bold;
+}
+
+#PeopleContainer div:hover{
+    cursor:pointer;
+}
+
+#PeopleContainer1 div:hover{
+    cursor:pointer;
+}
+
+.thumbnail:focus, .thumbnail:hover {
+    color: #eb3812;
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+
+#InterestAreaContainer h3{
+    color:#F05F40;
+}
+
+#InterestAreaContainer h5:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#InterestAreaContainer h5{
+    color:white;
+}
+
+#FacultyContainer h3{
+    font-weight:bold;
+}
+
+#FacultyContainer h5:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#white{
+    background-color:white;
+}
+
+#black{
+    background-color:black;
+    opacity: 0.8;
+}
+
+#footerList li a{
+    color:white;
+    text-align:center;
+}
+
+#FooterContainer1 p{
+    color:rgba(236,240,241,.7);
+    font-size: 12px;
+    text-align:center;
+    width:auto;
+}
+
+#contactForm{
+    color:white;
+    float:right;
+}
+
+#PeopleContent{
+    color:black;
+}
+
+
+#UDegreeContent{
+    color:black;
+}
+
+#GDegreeContent{
+    color:black;
+}
+
+#ResearchContent1{
+    color:black;
+}
+
+#ResearchContent2{
+    color:black;
+}
+
+#contactFormHeading:hover{
+    color:#337ab7;
+    text-decoration: underline;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#contactForm label,p{
+    color:black;
+}
+
+#contactForm input,textArea{
+    border-radius:5px;
+    color:black;
+}
+
+.ui-dialog{
+    background-color:white;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius:5px;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    border-radius:5px;
+    background-color: #F05F40;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+    background-image: url('img/header.jpg');
+}
+
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.homebtn{
+        text-align:center;
+}
+
+#homeh3{
+        font-weight:bold;
+        color:#337ab7;
+}
+
+#homeHeading{
+    margin-top:100px;
+}
+
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/header.jpg');
+  text-align: center;
+  color: white;
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #eb3812;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  font-weight: 700;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  color: #222222;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #F05F40;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.05);
+  }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #F05F40;
+    font-size: 14px;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #F05F40;
+  }
+}
+
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+body {
+  webkit-tap-highlight-color: #222222;
+}
